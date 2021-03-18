@@ -148,6 +148,10 @@ class DBProvider {
     final Database db = await database;
     db.rawDelete('DELETE FROM History WHERE id = ?', ["$id"]);
   }
+  deleteVideo(id)async{
+    final Database db = await database;
+    db.rawDelete('DELETE FROM Video WHERE id = ?', ["$id"]);
+  }
   deletePackage(id)async{
     final Database db = await database;
     db.rawDelete('DELETE FROM Package WHERE id = ?', ["$id"]);

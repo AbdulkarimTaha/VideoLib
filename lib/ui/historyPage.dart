@@ -86,7 +86,7 @@ class _TesterState extends State<HistoryPage> {
                                                         height: 150.0,
                                                         width: 100,
                                                       ),
-                                                      Text('${itemMo.id}'),
+                                                      Text('${itemMo.name}'),
                                                     ],
                                                   ),
                                                 )),

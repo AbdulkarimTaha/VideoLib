@@ -214,7 +214,10 @@ class _VideoUiState extends State<VideoUi> {
                               color: Colors.black,
                             ),
                             onPressed: () {
-                              openFile(item.path);
+                              setState(() {
+                                DBProvider.db.deleteVideo(item.id);
+                              });
+
                             },
                           ),
                         );

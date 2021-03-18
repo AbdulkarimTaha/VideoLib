@@ -72,6 +72,7 @@ class _OpenPageState extends State<OpenPage> {
                         ),
                       ),
                     ),
+                    title: Text('Recent Movie',style: TextStyle(color: Colors.black),),
                     backgroundColor: Colors.transparent,
                     elevation: 0.0,
                     actions: [
