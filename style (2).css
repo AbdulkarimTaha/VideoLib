@@ -1,0 +1,67 @@
+.body{
+    width: 100%;
+    background-color: #909290;
+    overflow: hidden;
+}
+.parent {
+  height: 250px;
+  width: 500px;
+  margin: auto;
+  background-color: #030306;
+  position: relative;
+  bottom: -335px;
+}
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight {
+  width: 10%;
+  height: 20%;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+}
+.one {
+    top: 0;
+    right: 0;
+}
+.two {
+    top: 25%;
+    right: 15%;
+}
+.three {
+    width: 14%;
+    height: 28%;
+    bottom: 10%;
+    right: 20%;
+}
+.four {
+    width: 14%;
+    height: 28%;
+    top: 3%;
+    right: 30%;
+}
+.five {
+    width: 20%;
+    height: 40%;
+    top: 27%;
+    right: 40%;
+}
+.six{
+    width: 14%;
+    height: 28%;
+    top: 3%;
+    left: 15%;
+}
+.seven {
+    top: 30%;
+}
+.eight {
+    top: 50%;
+    left: 13%;
+}
+
